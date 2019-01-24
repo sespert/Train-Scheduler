@@ -1,0 +1,26 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.card{
+    background-color: rgb(16, 61, 97);
+    color:white;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+
+#footer {
+    background-color:black;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    color: #ffffff;  
+    height: 50px;
+   
+}
