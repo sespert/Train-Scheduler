@@ -1,10 +1,10 @@
 body {
     background-color: aliceblue;
+    padding-bottom: 100px;
 }
 
 .container {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 .card{
@@ -12,15 +12,9 @@ body {
     color:white;
 }
 
-h2 {
-    font-size: 60px;
-}
-
-
 #footer {
     background-color:black;
     font-family: 'Georgia', Times, Times New Roman, serif; 
     color: #ffffff;  
     height: 50px;
-   
 }

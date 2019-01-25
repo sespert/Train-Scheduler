@@ -15,11 +15,12 @@
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 <body>
-    <div class="container text-center">
+
+    <div class="container text-center mt-4">
 
         <img src="assets/images/train.jpg" class="img-fluid" alt="train">
 
-        <div class="card mt-4">
+        <div class="card mt-2">
             <div class="card-body">
                 <h1>Universal Train Scheduler</h1>
                 <h3>Any Train...Any Time</h3>
@@ -43,42 +44,41 @@
         </table>
 
         <form action="" class="text-left">
-            <div class="alert alert-primary text-left mt-2" role="alert"><h5>Add Train</h5></div>
+            <div class="alert alert-primary text-left" role="alert"><h5>Add Train</h5></div>
                
             <div class="form-row">
-                <label for="train-name" class="">Train Name</label>
+                <label for="train-name" class="mb-2">Train Name</label>
                 <input id="train-name" type="name" class="form-control">            
             </div>
 
             <div class="form-row">
-                <label for="destination" >Destination</label>
+                <label for="destination" class="mb-2 mt-2" >Destination</label>
                 <input id="destination" type="text" class="form-control">
             </div>
 
             <div class="form-row">
-                <label for="first-train">First Train Time (HH:mm - military time)</label>
+                <label for="first-train" class="mb-2 mt-2">First Train Time (HH:mm - military time)</label>
                 <input id="first-train"  type="" class="form-control"  placeholder="HH:MM">
             </div>
 
             <div class="form-row">
-                <label for="frequency">Frequency (min)</label>
+                <label for="frequency" class="mb-2 mt-2">Frequency (min)</label>
                 <input id="frequency" type="" class="form-control" placeholder="">
             </div>
                
             <button type="submit" id="submit" class="btn btn-primary mt-2" style="float:left">Submit</button>
 
         </form>
-
-
-
-
     </div>
 
-    <nav class="navbar sticky-bottom justify-content-center fixed-bottom" id="footer">
-        <div class="footer-copyright py-3 px-auto">© Copyright 2019 SEG</div>
+    <nav class="navbar justify-content-center fixed-bottom" id="footer">
+        <div class="footer-copyright">© Copyright 2019 SEG</div>
     </nav>
+      
     
+     <!--Firebase-->
     <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <!--Javascript-->
     <script src="assets/javascript/app.js"></script>
 
 </body>
